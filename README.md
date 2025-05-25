@@ -2,6 +2,10 @@
 
 ![Walmart Logo](https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Walmart_logo.svg/320px-Walmart_logo.svg.png)
 
+## 📝 Background
+
+Accurate sales forecasting is crucial for large retailers like Walmart to optimize inventory, staffing, and supply chain operations. By leveraging historical sales data and advanced machine learning models, this project seeks to provide actionable insights that can support business decision-making and improve operational efficiency.
+
 ## 📊 Project Overview
 
 This project aims to forecast Walmart's weekly sales using historical data and machine learning techniques. By analyzing various factors such as store details, department information, and external influences like holidays, I strive to predict future sales accurately.
@@ -63,7 +67,19 @@ Key features include:
 
 ## 📈 Results
 
-My models show promising results in predicting Walmart's weekly sales. Detailed performance metrics and visualizations can be found in the Jupyter Notebook.
+My models show promising results in predicting Walmart's weekly sales. 
+
+*Example results:*
+- **Random Forest Regressor:** RMSE = 7550.82, R² = 0.89
+- **XGBoost Regressor:** RMSE = 3565.72, R² = 0.97
+
+Detailed performance metrics and visualizations are available in the Jupyter Notebook.
+
+## ⚠️ Limitations
+
+- The analysis is based on historical data and may not account for unforeseen events (e.g., pandemics, economic shifts).
+- Model predictions may not generalize to stores or departments not well represented in the training data.
+- External factors beyond the provided features (e.g., local promotions, competitor actions) are not included.
 
 ## 🔮 Future Enhancements
 
